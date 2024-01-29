@@ -77,7 +77,7 @@ def processImage(filename, operation):
 def index():
     return 'helo world'
 
-@app.route("/barang", methods=['POST'])
+@app.route("/photo", methods=['POST'])
 def barang():
     operation = request.form.get("operation")
     file = request.files['file']
