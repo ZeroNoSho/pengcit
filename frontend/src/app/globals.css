@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.containers {
+  height: 200px; /* Tinggi container div */
+  overflow-y: auto; /* Menambahkan scrollbar jika kontennya melebihi tinggi */
+  border: 1px solid #ccc; /* Garis batas untuk container div */
+  padding: 10px; /* Padding untuk memberikan ruang di dalam container div */
+}
